@@ -1,0 +1,123 @@
+/****** 3.LEFT SIDEBAR ******/
+.left-aside {
+    width: 240px;
+    background-color: #fff;
+    box-shadow: 0 0 12px #E5E5E5; }
+  
+  li.active a,
+  a:hover,
+  a {
+    text-decoration: none !important; }
+  
+  .badge {
+    background-color: #66CC99;
+    font-weight: 400;
+    float: right; }
+  
+  .sub-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  
+  #menu .menu-dropdown.active > a,
+  #menu .no-submenu.active > a {
+    background: #6161a7;
+    color: #FFF;
+    transition: none;
+    padding: 9px 20px 9px 16px; }
+  
+  #menu ul.sub-menu li.active {
+    background: #8181b9;
+    margin-left: 30px; }
+  #menu ul.sub-menu li.active a {
+    padding-left: 32px;
+    color: #FFF; }
+  
+  #menu .profile-left li > a:hover {
+    color: #0A1414; }
+  
+  #menu .menu-dropdown > ul:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 20px;
+    left: 28px;
+    border-left: 2px dotted #A2A2CB;
+    z-index: 0; }
+  
+  #menu .menu-dropdown > ul li:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 21px;
+    left: 28px;
+    margin-top: -22px;
+    border-top: 2px dotted #A2A2CB; }
+  
+  #menu .menu-dropdown > ul li.active:after {
+    border-color: #CCC; }
+  
+  #menu .menu-dropdown > ul > li > a {
+    padding-left: 62px; }
+  
+  #menu .menu-dropdown > ul,
+  #menu .menu-dropdown-open-ul {
+    background: #FFF;
+    position: relative; }
+  
+  #menu .no-submenu.active a {
+    padding-left: 15px; }
+  
+  #menu .navigation .menu-icon {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 16px; }
+  
+  #menu li > a:hover {
+    color: #2A3740; }
+  
+  #menu .navigation li.active > a .menu-icon {
+    color: #6161a7;
+    background-color: #FFF;
+    padding: 4px 5px;
+    height: 28px;
+    width: 28px;
+    border-radius: 18px; }
+  
+  #menu .navigation {
+    padding: 0 0 15px 0; }
+  
+  #menu .navigation a {
+    text-align: left;
+    color: #5f6f7a;
+    position: relative;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 11px 20px;
+    transition: none; }
+  
+  #menu .navigation a i {
+    color: #AAB5BC; }
+  
+  #menu .navigation a:hover i {
+    color: #707F89; }
+  
+  #menu .fa.arrow:before {
+    content: "\f105";
+    line-height: 1.8;
+    transition: .3s; }
+  
+  #menu .active > a > .fa.arrow:before {
+    display: inline-block;
+    transform: rotate(90deg);
+    line-height: 2.3;
+    transition: .3s; }
+  
+  /******* END LEFT SIDEBAR *****/
+  
